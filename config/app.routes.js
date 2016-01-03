@@ -19,6 +19,10 @@ angular.module("entertainShop")
                     controller: 'leptopCtrl'
                 })
 
+                .when('/phone', {
+                    templateUrl: 'views/smartPhone.html',
+                    controller: 'smartphoneCtrl'
+                })
                 .otherwise({
                     redirectTo: '/'
                 });
